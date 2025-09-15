@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstdlib>
 using namespace std;
-// project 1 C5
 
 enum enGame { Stone = 1, Paper = 2, Scissor = 3 };
 enum enWhoWin { Player = 1, Computer = 2, Draw = 3 };
@@ -157,3 +156,4 @@ int main()
 	srand((unsigned)time(NULL));
 	StartGame();
 }
+
